@@ -44,7 +44,7 @@ The first five cards belong to the player named "Black" and the second five card
 Sample output:
 ```
 White wins. - with high card: Ace 
-White wins. - with flash 
+White wins. - with full house: 4 over 2 
 Black wins. - with high card: 9
 Tie.
 ```
