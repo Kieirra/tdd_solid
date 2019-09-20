@@ -1,7 +1,18 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "checkJs": true
+        "module": "commonjs",
+        "target": "esnext",
+        "checkJs": true, /* Typecheck .js files. */
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "resolveJsonModule": true
+    },
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
     },
     "exclude": [
         "node_modules"
