@@ -1,4 +1,4 @@
-# Code Kata: Trading Card Game (TCG) [![Build Status](https://travis-ci.org/bkimminich/kata-tcg.svg?branch=master)](https://travis-ci.org/bkimminich/kata-tcg)
+# Code Kata: Trading Card Game (TCG)
 
 In this [Code Kata](http://en.wikipedia.org/wiki/Kata_\(programming\))
 you will be implementing a two-player trading card game. The rules were
@@ -94,12 +94,4 @@ might not want to use all extra rules at once:
 - Allow players to create their own decks of 20 cards from a larger
   _Card Pool_. Let those decks be saved to and loaded from disk before
   starting a game.
-
-### Sample Implementation Status
-
-| Language | Quality Metrics                                                                                                                                                                                                                                                                         |
-|:---------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Java     | [![Coverage Status](https://coveralls.io/repos/github/bkimminich/kata-tcg/badge.svg?branch=master)](https://coveralls.io/github/bkimminich/kata-tcg?branch=master)                                                                                                                      |
-| Groovy   | [![Coverage Status](https://coveralls.io/repos/github/bkimminich/kata-tcg/badge.svg?branch=master)](https://coveralls.io/github/bkimminich/kata-tcg?branch=master)                                                                                                                      |
-| JS       | [![Test Coverage](https://codeclimate.com/github/bkimminich/kata-tcg/badges/coverage.svg)](https://codeclimate.com/github/bkimminich/kata-tcg) [![Code Climate](https://codeclimate.com/github/bkimminich/kata-tcg/badges/gpa.svg)](https://codeclimate.com/github/bkimminich/kata-tcg) |
 
