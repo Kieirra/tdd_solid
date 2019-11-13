@@ -1,6 +1,9 @@
 module.exports = {
-    "testRegex": ".*Test.js$",
-    "roots": [
-        "./"
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "setupFiles": [
+      "core-js"
     ]
-}
+  };
+  
